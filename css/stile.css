@@ -4,7 +4,6 @@
   --text-color-grey: #757575;
   --btn-color-black: #2196f3;
   --fon-background-grey: #2f303a;
-  --fon-background-white: #f5f4fa;
   --fon-background-footer: #2f303a;
   --footer-link-color: rgba(255, 255, 255, 0.6);
 }
@@ -14,7 +13,7 @@
   font-style: normal;
   color: var(--text-color-grey);
 }
-/* color #FFFFFF #212121 #757575 #2196f3 */
+
 /* index.html */
 /* header */
 a {
@@ -92,7 +91,6 @@ li {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #212121;
-  background-color: var(--fon-background-white);
   cursor: pointer;
 }
 .filter-btn {
@@ -100,7 +98,7 @@ li {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
-  color: var(--fon-background-white);
+  color: #212121;
   cursor: pointer;
 }
 
