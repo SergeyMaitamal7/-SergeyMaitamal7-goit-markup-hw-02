@@ -4,7 +4,6 @@
   --text-color-grey: #757575;
   --btn-color-black: #2196f3;
   --fon-background-grey: #2f303a;
-  --fon-background-footer: #2f303a;
   --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -124,6 +123,7 @@ li {
   font-size: 14px;
   line-height: 1.13;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--header-color-black);
 }
 
@@ -169,7 +169,7 @@ li {
 /* footer */
 
 .footer {
-  background-color: var(--fon-background-footer);
+  background-color: var(--fon-background-grey);
 }
 .footer-address {
   font-style: normal;
