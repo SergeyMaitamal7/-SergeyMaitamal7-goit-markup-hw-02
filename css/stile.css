@@ -2,8 +2,9 @@
   --header-color-white: #ffffff;
   --header-color-black: #212121;
   --text-color-grey: #757575;
-  --btn-color-black: #2196f3;
+  --btn-color-blue: #2196f3;
   --fon-background-grey: #2f303a;
+  --fon-background-white:#E5E5E5;
   --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -23,7 +24,21 @@ li {
   list-style-type: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .logo {
+  font-family: "Raleway", sans-serif
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -34,7 +49,7 @@ li {
   color: var(--header-color-black);
 }
 .color-logo {
-  color: var(--btn-color-black);
+  color: var(--btn-color-blue);
 }
 
 .header-link {
@@ -47,7 +62,7 @@ li {
 .header-link:hover,
 .header-link:focus,
 .header-link:active {
-  color: var(--btn-color-black);
+  color: var(--btn-color-blue);
 }
 
 .header-link-tel {
@@ -60,7 +75,7 @@ li {
 .header-link-tel:hover,
 .header-link-tel:focus,
 .header-link-tel:active {
-  color: var(--btn-color-black);
+  color: var(--btn-color-blue);
 }
 
 .header-item {
@@ -85,18 +100,11 @@ li {
   color: var(--header-color-white);
 }
 .btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: #212121;
-  cursor: pointer;
-}
-.filter-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  letter-spacing: 0.03em;
   color: #212121;
   cursor: pointer;
 }
@@ -108,8 +116,10 @@ li {
 .btn:active,
 .filter-btn:active {
   color: var(--header-color-white);
-  background-color: var(--btn-color-black);
+  background-color: var(--btn-color-blue);
 }
+
+/* benefits */
 
 .benefits-our {
   font-weight: 700;
@@ -118,6 +128,7 @@ li {
   letter-spacing: 0.03em;
   color: var(--header-color-black);
 }
+
 .benefits-title {
   font-weight: 700;
   font-size: 14px;
@@ -177,7 +188,7 @@ li {
 .footer-address a:hover,
 .footer-address a:focus,
 .footer-address a:active {
-  color: var(--btn-color-black);
+  color: var(--btn-color-blue);
 }
 .footer-logo {
   color: var(--header-color-white);
@@ -190,9 +201,22 @@ li {
 }
 
 /* portfolio */
-.color-portfolio {
-  color: var(--btn-color-black);
+/* filter */
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
 }
+
+.color-portfolio {
+  color: var(--btn-color-blue);
+}
+
+/* content */
 .content-title {
   font-weight: 700;
   font-size: 18px;
